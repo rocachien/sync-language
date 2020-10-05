@@ -1,6 +1,6 @@
 {
   "name": "sync-language",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate Excel Report with Excel files from templates.",
   "main": "./lib/index",
   "author": {
@@ -34,7 +34,8 @@
     "grunt-buster": "~0.4.2"
   },
   "scripts": {
-    "test": "buster-test"
+    "test": "buster-test",
+    "release": "npm publish"
   },
   "readme": "",
   "readmeFilename": "README.md"
